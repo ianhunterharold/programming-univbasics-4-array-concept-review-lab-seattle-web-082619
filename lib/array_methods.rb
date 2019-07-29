@@ -4,11 +4,11 @@ def find_element_index(array, value_to_find)
   while i < array.length do
     if (array[i] === value_to_find)
     return i
-    end 
+    end #end of if statment 
     i += 1
-    end 
+    end  #end of loop (incrementing took place inside of the loop and outside of the if statment, regardless of if continues you still want to increment )
     puts nil
-end
+end # end of method 
    #while loop 
     # if the value is in the array array[i] === value to find_max_value
         ## puts value 
@@ -22,6 +22,7 @@ def find_max_value(array)
     if (array[i] > largest)
       largest = array[i]
     end #end of if statment 
+    i+= 1
   end  #end of while loop 
   return largest
 end # end of method 
