@@ -31,6 +31,7 @@ end # end of method
   #while loop
   # if array[i] > largest
     # largest = array[i]
+    #increment through the array 
     # return largest 
 
 
