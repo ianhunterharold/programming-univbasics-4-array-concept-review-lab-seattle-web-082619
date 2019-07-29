@@ -39,7 +39,12 @@ end # end of method
 def find_min_value(array)
   i = 0;  #where in the array we start our loop 
   smallest = array[0] #smallest by default is the first position 
-  while i < array.length 
+  while i < array.length do
+    if (array[i] < smallest)
+      smallest = array[i]
+    end #end of the if statment 
+    i+= 1
+  end #end of the while loop 
   
 end # end of the method 
 
