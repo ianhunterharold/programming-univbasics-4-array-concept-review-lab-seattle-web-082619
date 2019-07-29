@@ -45,7 +45,7 @@ def find_min_value(array)
     end #end of the if statment 
     i+= 1
   end #end of the while loop 
-  
+  return smallest 
 end # end of the method 
 
 # replace largest with smallest 
