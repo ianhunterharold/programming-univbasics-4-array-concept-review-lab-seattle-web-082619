@@ -38,6 +38,7 @@ end # end of method
 
 def find_min_value(array)
   # Add your solution here
+  
 end
 
 # replace largest with smallest 
