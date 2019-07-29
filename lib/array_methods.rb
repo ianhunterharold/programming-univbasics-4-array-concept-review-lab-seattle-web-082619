@@ -32,10 +32,20 @@ end # end of method
   #while loop
   # if array[i] > largest
     # largest = array[i]
-    #increment through the array 
+    #increment through the array (outside of the if statement but inside of the loop)
     # return largest 
 
 
 # def find_min_value(array)
 #   # Add your solution here
 # end
+
+# replace largest with smallest 
+#initialize our index 
+  #initialize largest = array[0]
+  #while loop
+  # if array[i] < largest
+    # largest = array[i]
+    #increment through the array (outside of the if statement but inside of the loop)
+    # return largest 
+
