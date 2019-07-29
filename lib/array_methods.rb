@@ -17,7 +17,7 @@ end # end of method
 
 def find_max_value(array)
   i = 0;
-  largest_integer = array[0]
+  largest = array[0]
   while i < array.length do
     if (array[i] > largest)
       largest = array[i]
